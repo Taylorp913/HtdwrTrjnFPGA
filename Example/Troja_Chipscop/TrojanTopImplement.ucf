@@ -1,0 +1,9 @@
+
+
+NET "RST" LOC = G18;
+#NET "SendLED" LOC = J14;
+NET "SendLED" LOC = L15;
+NET "CHIP_SELECT_BAR" LOC = H18;
+NET "CLK" LOC = B8;
+NET "SendDataReady" LOC = J15;
+NET "ADDRESS" LOC = R17;

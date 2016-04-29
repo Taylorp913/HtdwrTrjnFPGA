@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon May 04 23:27:18 2015
+# Process ID: 6036
+# Log file: C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/pa.fromNetlist.tcl
+startgroup
+set_property package_pin L15 [get_ports SendLED]
+endgroup
+save_constraints

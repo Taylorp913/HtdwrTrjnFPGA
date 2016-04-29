@@ -1,0 +1,180 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/pa.fromNetlist.tcl
+# create_project -name Troja_Chipscop -dir "C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/planAhead_run_3" -part xc3s1200efg320-4
+create_project: Time (s): elapsed = 00:00:13 . Memory (MB): peak = 263.711 ; gain = 19.949
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/TrojanTopImplement_cs.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "TrojanTopImplement.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/TrojanTopImplement.ucf' to fileset 'constrs_1'
+# add_files [list {TrojanTopImplement.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s1200efg320-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design TrojanTopImplement_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_SCNT_CMP/I_SRL16.U_GAND_SRL
+   16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_HCMP/I_SRL16.U_GAND_SR
+   L16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_LCMP/I_SRL16.U_GAND_SR
+   L16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round1/RIGHT_REG<30 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   DES1/round1/input_to_round2/RIGHT_REG1<32 : 4> on block TrojanTopImplement is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round11/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round12/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round13/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round15/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S3_INPUT<6 : 2> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S4_INPUT<5 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S6_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/input_to_round2/LEFT_REG1<32
+   : 4> on block TrojanTopImplement is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S3_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S8_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S8_INPUT<4 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file TrojanTopImplement_cs.edif ...
+ngc2edif: Total memory usage is 66444 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/Troja_Chipscop.data/cache/TrojanTopImplement_cs_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/Troja_Chipscop.data/cache/TrojanTopImplement_cs_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+WARNING: [Netlist 29-43] Netlist 'TrojanTopImplement' is not ideal for floorplanning, since the cellview 'TrojanTopImplement' defined in file 'TrojanTopImplement_cs.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/.Xil/PlanAhead-5096-rose/ngc2edif/TrojanTopImplement_cs.xncf]
+Finished Parsing UCF File [C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/.Xil/PlanAhead-5096-rose/ngc2edif/TrojanTopImplement_cs.xncf]
+Parsing UCF File [C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/TrojanTopImplement.ucf]
+Finished Parsing UCF File [C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/TrojanTopImplement.ucf]
+CRITICAL WARNING: [Constraints 18-329] No definition for group 'J_CLK', timing constraint is ignored [C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/.Xil/PlanAhead-5096-rose/ngc2edif/TrojanTopImplement_cs.xncf:9]
+CRITICAL WARNING: [Constraints 18-329] No definition for group 'J_CLK', timing constraint is ignored [C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/.Xil/PlanAhead-5096-rose/ngc2edif/TrojanTopImplement_cs.xncf:11]
+CRITICAL WARNING: [Constraints 18-329] No definition for group 'J_CLK', timing constraint is ignored [C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/.Xil/PlanAhead-5096-rose/ngc2edif/TrojanTopImplement_cs.xncf:12]
+CRITICAL WARNING: [Constraints 18-329] No definition for group 'J_CLK', timing constraint is ignored [C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/.Xil/PlanAhead-5096-rose/ngc2edif/TrojanTopImplement_cs.xncf:8]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 0744fb95
+link_design: Time (s): elapsed = 00:00:40 . Memory (MB): peak = 315.914 ; gain = 52.203
+startgroup
+set_property package_pin B8 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin G18 [get_ports RST]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports SendLED]
+endgroup
+set_property package_pin "" [get_ports [list  SendDataReady]]
+save_constraints
+startgroup
+set_property package_pin H18 [get_ports CHIP_SELECT_BAR]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin J15 [get_ports SendDataReady]
+endgroup
+save_constraints
+startgroup
+set_property package_pin R17 [get_ports ADDRESS]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon May 04 13:46:16 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

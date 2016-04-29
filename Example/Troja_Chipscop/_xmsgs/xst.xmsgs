@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="905" delta="old" >&quot;<arg fmt="%s" index="1">Initial_Permutation.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;PLAIN_TEXT&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">PERMUTATION2_INPUT&lt;54&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">PERMUTATION2_INPUT&lt;43&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">PERMUTATION2_INPUT&lt;38&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">PERMUTATION2_INPUT&lt;35&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">PERMUTATION2_INPUT&lt;25&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">PERMUTATION2_INPUT&lt;22&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">PERMUTATION2_INPUT&lt;18&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">PERMUTATION2_INPUT&lt;9&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">plainTxtR_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">63 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;plainTxtR_1&gt; &lt;plainTxtR_2&gt; &lt;plainTxtR_3&gt; &lt;plainTxtR_4&gt; &lt;plainTxtR_5&gt; &lt;plainTxtR_6&gt; &lt;plainTxtR_7&gt; &lt;plainTxtR_8&gt; &lt;plainTxtR_9&gt; &lt;plainTxtR_10&gt; &lt;plainTxtR_11&gt; &lt;plainTxtR_12&gt; &lt;plainTxtR_13&gt; &lt;plainTxtR_14&gt; &lt;plainTxtR_15&gt; &lt;plainTxtR_16&gt; &lt;plainTxtR_17&gt; &lt;plainTxtR_18&gt; &lt;plainTxtR_19&gt; &lt;plainTxtR_20&gt; &lt;plainTxtR_21&gt; &lt;plainTxtR_22&gt; &lt;plainTxtR_23&gt; &lt;plainTxtR_24&gt; &lt;plainTxtR_25&gt; &lt;plainTxtR_26&gt; &lt;plainTxtR_27&gt; &lt;plainTxtR_28&gt; &lt;plainTxtR_29&gt; &lt;plainTxtR_30&gt; &lt;plainTxtR_31&gt; &lt;plainTxtR_32&gt; &lt;plainTxtR_33&gt; &lt;plainTxtR_34&gt; &lt;plainTxtR_35&gt; &lt;plainTxtR_36&gt; &lt;plainTxtR_37&gt; &lt;plainTxtR_38&gt; &lt;plainTxtR_39&gt; &lt;plainTxtR_40&gt; &lt;plainTxtR_41&gt; &lt;plainTxtR_42&gt; &lt;plainTxtR_43&gt; &lt;plainTxtR_44&gt; &lt;plainTxtR_45&gt; &lt;plainTxtR_46&gt; &lt;plainTxtR_47&gt; &lt;plainTxtR_48&gt; &lt;plainTxtR_49&gt; &lt;plainTxtR_50&gt; &lt;plainTxtR_51&gt; &lt;plainTxtR_52&gt; &lt;plainTxtR_53&gt; &lt;plainTxtR_54&gt; &lt;plainTxtR_55&gt; &lt;plainTxtR_56&gt; &lt;plainTxtR_57&gt; &lt;plainTxtR_58&gt; &lt;plainTxtR_59&gt; &lt;plainTxtR_60&gt; &lt;plainTxtR_61&gt; &lt;plainTxtR_62&gt; &lt;plainTxtR_63&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">Key_Generation</arg>: <arg fmt="%d" index="2">56</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="2042" delta="old" >Unit <arg fmt="%s" index="1">Initial_Permutation</arg>: <arg fmt="%d" index="2">64</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/LEFT_REG1_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">31 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/LEFT_REG1_31&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_30&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_29&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_28&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_27&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_26&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_25&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_24&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_23&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_22&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_21&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_20&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_19&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_18&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_17&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_16&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_15&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_14&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_13&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_12&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_11&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_10&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_9&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_8&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_7&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_6&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_5&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_4&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_3&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_2&gt; &lt;DES1/round1/input_to_round2/LEFT_REG1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">trojanKey_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">54 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;trojanKey_2&gt; &lt;trojanKey_3&gt; &lt;trojanKey_4&gt; &lt;trojanKey_5&gt; &lt;trojanKey_6&gt; &lt;trojanKey_7&gt; &lt;trojanKey_8&gt; &lt;trojanKey_9&gt; &lt;trojanKey_10&gt; &lt;trojanKey_11&gt; &lt;trojanKey_12&gt; &lt;trojanKey_13&gt; &lt;trojanKey_14&gt; &lt;trojanKey_15&gt; &lt;trojanKey_17&gt; &lt;trojanKey_18&gt; &lt;trojanKey_19&gt; &lt;trojanKey_21&gt; &lt;trojanKey_22&gt; &lt;trojanKey_23&gt; &lt;trojanKey_24&gt; &lt;trojanKey_25&gt; &lt;trojanKey_26&gt; &lt;trojanKey_27&gt; &lt;trojanKey_29&gt; &lt;trojanKey_30&gt; &lt;trojanKey_31&gt; &lt;trojanKey_32&gt; &lt;trojanKey_33&gt; &lt;trojanKey_34&gt; &lt;trojanKey_35&gt; &lt;trojanKey_37&gt; &lt;trojanKey_38&gt; &lt;trojanKey_39&gt; &lt;trojanKey_40&gt; &lt;trojanKey_41&gt; &lt;trojanKey_42&gt; &lt;trojanKey_43&gt; &lt;trojanKey_44&gt; &lt;trojanKey_45&gt; &lt;trojanKey_46&gt; &lt;trojanKey_47&gt; &lt;trojanKey_49&gt; &lt;trojanKey_50&gt; &lt;trojanKey_51&gt; &lt;trojanKey_53&gt; &lt;trojanKey_54&gt; &lt;trojanKey_55&gt; &lt;trojanKey_57&gt; &lt;trojanKey_58&gt; &lt;trojanKey_59&gt; &lt;trojanKey_61&gt; &lt;trojanKey_62&gt; &lt;trojanKey_63&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">trojanKey_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;trojanKey_16&gt; &lt;trojanKey_20&gt; &lt;trojanKey_28&gt; &lt;trojanKey_36&gt; &lt;trojanKey_48&gt; &lt;trojanKey_52&gt; &lt;trojanKey_56&gt; &lt;trojanKey_60&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/LEFT_REG1_32&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_20&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_19&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_15&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_30&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_9&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_17&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_11&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/LEFT_REG1_32&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_20&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_19&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_15&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_30&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_9&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round1/input_to_round2/RIGHT_REG1_24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round1/input_to_round2/RIGHT_REG1_17&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_11&gt; &lt;DES1/round1/input_to_round2/RIGHT_REG1_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round2/input_to_round2/LEFT_REG1_28</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round2/input_to_round2/LEFT_REG1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round2/input_to_round2/LEFT_REG1_24</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round2/input_to_round2/LEFT_REG1_17&gt; &lt;DES1/round2/input_to_round2/LEFT_REG1_11&gt; &lt;DES1/round2/input_to_round2/LEFT_REG1_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round2/input_to_round2/LEFT_REG1_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round2/input_to_round2/LEFT_REG1_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round2/input_to_round2/LEFT_REG1_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round2/input_to_round2/LEFT_REG1_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round2/input_to_round2/LEFT_REG1_32</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round2/input_to_round2/LEFT_REG1_20&gt; &lt;DES1/round2/input_to_round2/LEFT_REG1_19&gt; &lt;DES1/round2/input_to_round2/LEFT_REG1_15&gt; &lt;DES1/round2/input_to_round2/LEFT_REG1_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round2/input_to_round2/LEFT_REG1_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round2/input_to_round2/LEFT_REG1_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round2/input_to_round2/LEFT_REG1_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round2/input_to_round2/LEFT_REG1_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round2/input_to_round2/LEFT_REG1_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round2/input_to_round2/LEFT_REG1_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">DES1/round2/input_to_round2/LEFT_REG1_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TrojanTopImplement</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;DES1/round2/input_to_round2/LEFT_REG1_30&gt; &lt;DES1/round2/input_to_round2/LEFT_REG1_9&gt; &lt;DES1/round2/input_to_round2/LEFT_REG1_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="1843" delta="old" >HDL ADVISOR - FlipFlop <arg fmt="%s" index="1">addrR</arg> connected to a primary input has been replicated
+</msg>
+
+</messages>
+

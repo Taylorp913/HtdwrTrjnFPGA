@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon May 04 13:44:14 2015
+# Process ID: 4800
+# Log file: C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/pa.fromNetlist.tcl
+# create_project -name Troja_Chipscop -dir "C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/planAhead_run_3" -part xc3s1200efg320-4
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/planAhead_run_3/Troja_Chipscop.ppr
+     C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/planAhead_run_3/Troja_Chipscop.data
+
+    while executing
+"create_project -name Troja_Chipscop -dir "C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/planAhead_run_3" -part xc3s1200efg320-4"
+    (file "C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/pa.fromNetlist.tcl" line 4)
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Mon May 04 13:46:22 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

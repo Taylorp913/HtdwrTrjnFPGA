@@ -1,0 +1,600 @@
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design TrojanTopImplement.ngc ...
+WARNING:NetListWriters:298 - No output is written to TrojanTopImplement.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus DES1/round1/RIGHT_REG<30 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   DES1/round1/input_to_round2/RIGHT_REG1<32 : 4> on block TrojanTopImplement is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round11/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round12/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round13/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round15/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S3_INPUT<6 : 2> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S4_INPUT<5 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S6_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/input_to_round2/LEFT_REG1<32
+   : 4> on block TrojanTopImplement is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S3_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S8_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S8_INPUT<4 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file TrojanTopImplement.edif ...
+ngc2edif: Total memory usage is 66060 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design TrojanTopImplement.ngc ...
+WARNING:NetListWriters:298 - No output is written to TrojanTopImplement.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus DES1/round1/RIGHT_REG<30 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   DES1/round1/input_to_round2/RIGHT_REG1<32 : 4> on block TrojanTopImplement is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round11/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round12/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round13/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round15/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S3_INPUT<6 : 2> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S4_INPUT<5 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S6_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/input_to_round2/LEFT_REG1<32
+   : 4> on block TrojanTopImplement is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S3_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S8_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S8_INPUT<4 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file TrojanTopImplement.edif ...
+ngc2edif: Total memory usage is 66444 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design TrojanTopImplement.ngc ...
+WARNING:NetListWriters:298 - No output is written to TrojanTopImplement.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus DES1/round1/RIGHT_REG<30 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   DES1/round1/input_to_round2/RIGHT_REG1<32 : 4> on block TrojanTopImplement is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round11/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round12/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round13/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round15/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S3_INPUT<6 : 2> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S4_INPUT<5 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S6_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/input_to_round2/LEFT_REG1<32
+   : 4> on block TrojanTopImplement is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S3_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S8_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S8_INPUT<4 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file TrojanTopImplement.edif ...
+ngc2edif: Total memory usage is 66444 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design TrojanTopImplement_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_SCNT_CMP/I_SRL16.U_GAND_SRL
+   16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_HCMP/I_SRL16.U_GAND_SR
+   L16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_LCMP/I_SRL16.U_GAND_SR
+   L16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round1/RIGHT_REG<30 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   DES1/round1/input_to_round2/RIGHT_REG1<32 : 4> on block TrojanTopImplement is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round11/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round12/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round13/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round15/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S3_INPUT<6 : 2> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S4_INPUT<5 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S6_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/input_to_round2/LEFT_REG1<32
+   : 4> on block TrojanTopImplement is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S3_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S8_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S8_INPUT<4 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file TrojanTopImplement_cs.edif ...
+ngc2edif: Total memory usage is 66316 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design TrojanTopImplement_cs.ngc ...
+WARNING:NetListWriters:298 - No output is written to TrojanTopImplement_cs.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus DES1/round1/RIGHT_REG<30 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   DES1/round1/input_to_round2/RIGHT_REG1<32 : 4> on block TrojanTopImplement is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round11/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round12/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round13/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round15/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S3_INPUT<6 : 2> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S4_INPUT<5 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S6_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/input_to_round2/LEFT_REG1<32
+   : 4> on block TrojanTopImplement is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S3_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S8_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S8_INPUT<4 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file TrojanTopImplement_cs.edif ...
+ngc2edif: Total memory usage is 66444 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design TrojanTopImplement_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_SCNT_CMP/I_SRL16.U_GAND_SRL
+   16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_HCMP/I_SRL16.U_GAND_SR
+   L16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_LCMP/I_SRL16.U_GAND_SR
+   L16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round1/RIGHT_REG<30 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   DES1/round1/input_to_round2/RIGHT_REG1<32 : 4> on block TrojanTopImplement is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round11/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round12/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round13/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round15/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S3_INPUT<6 : 2> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S4_INPUT<5 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S6_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/input_to_round2/LEFT_REG1<32
+   : 4> on block TrojanTopImplement is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S3_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S8_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S8_INPUT<4 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file TrojanTopImplement_cs.edif ...
+ngc2edif: Total memory usage is 66444 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design TrojanTopImplement_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_SCNT_CMP/I_SRL16.U_GAND_SRL
+   16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_HCMP/I_SRL16.U_GAND_SR
+   L16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_WCNT_LCMP/I_SRL16.U_GAND_SR
+   L16/sel<8 : 0> on block ila_pro_0 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round1/RIGHT_REG<30 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   DES1/round1/input_to_round2/RIGHT_REG1<32 : 4> on block TrojanTopImplement is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round11/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round12/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round13/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round15/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round16/S6_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S3_INPUT<6 : 2> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S4_INPUT<5 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/S6_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round2/input_to_round2/LEFT_REG1<32
+   : 4> on block TrojanTopImplement is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S3_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round3/S8_INPUT<6 : 3> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S4_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S5_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round4/S8_INPUT<4 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S2_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DES1/round5/S7_INPUT<6 : 1> on block
+   TrojanTopImplement is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file TrojanTopImplement_cs.edif ...
+ngc2edif: Total memory usage is 66572 kilobytes
+
