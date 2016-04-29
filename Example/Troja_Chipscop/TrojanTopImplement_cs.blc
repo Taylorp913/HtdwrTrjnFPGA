@@ -1,14 +1,17 @@
-Release 14.7 ngcbuild P.20131013 (nt)
+Release 14.7 ngcbuild P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: ngcbuild.exe -dd
-C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/_ngo -p xc3s1200e-fg320-4
--i C:\Users\admin\Documents\Verilog\Final\Troja_Chipscop\TrojanTopImplement.ngc
-C:\Users\admin\Documents\Verilog\Final\Troja_Chipscop\TrojanTopImplement_cs.ngc
+C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/_ngo -p
+xc3s1200e-fg320-4 -i
+C:\Users\Taylor\Documents\GitHub\HtdwrTrjnFPGA\Example\Troja_Chipscop\TrojanTopI
+mplement.ngc
+C:\Users\Taylor\Documents\GitHub\HtdwrTrjnFPGA\Example\Troja_Chipscop\TrojanTopI
+mplement_cs.ngc
 
 Reading NGO file
-"C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/TrojanTopImplement.ngc"
-...
+"C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/TrojanTop
+Implement.ngc" ...
 
 Partition Implementation Status
 -------------------------------
@@ -21,14 +24,14 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 121152 kilobytes
+Total memory usage is 178816 kilobytes
 
 Writing NGC file
-"C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/TrojanTopImplement_cs.ngc
-" ...
-Total REAL time to NGCBUILD completion:  2 sec
-Total CPU time to NGCBUILD completion:   2 sec
+"C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/TrojanTop
+Implement_cs.ngc" ...
+Total REAL time to NGCBUILD completion:  7 sec
+Total CPU time to NGCBUILD completion:   7 sec
 
 Writing NGCBUILD log file
-"C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/TrojanTopImplement_cs.blc
-"...
+"C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/TrojanTop
+Implement_cs.blc"...

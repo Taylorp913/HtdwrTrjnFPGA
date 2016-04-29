@@ -8,7 +8,76 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/TrojanTopImplement _old.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Expansion_Permutation.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Initial_Permutation.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Inverse_Initial_Permutation.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Key_Generation.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Key_Top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Permuatation.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Permuted_Choice2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Reg32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Round1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Sbox_Output.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Sbox_Rom1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Sbox_Rom2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Sbox_Rom3.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Sbox_Rom4.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Sbox_Rom5.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Sbox_Rom6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Sbox_Rom7.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Sbox_Rom8.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Swap.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/TrojanTopImplement _old.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Trojan_Permutation.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Xor_Operation.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/Xor_Permutation.v&quot; into library work</arg>
 </msg>
 
 </messages>

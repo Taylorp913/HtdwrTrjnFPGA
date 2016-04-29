@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-05-04T23:16:58</DateModified>
+  <DateModified>2016-04-29T11:45:24</DateModified>
   <ModuleName>TrojanTopImplement</ModuleName>
   <SummaryTimeStamp>2015-05-04T13:18:24</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop/iseconfig/TrojanTopImplement.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/admin/Documents/Verilog/Final/Troja_Chipscop\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/iseconfig/TrojanTopImplement.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop\</ImplementationReportsDirectory>
   <DateInitialized>2015-05-02T11:15:02</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

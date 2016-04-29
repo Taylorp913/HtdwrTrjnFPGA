@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/xst"
+elaborate
+-ifn Des_Top.prj
+-ifmt mixed

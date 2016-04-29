@@ -26,3 +26,11 @@ map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Trojan
 par -w -intstyle ise -ol high -t 1 TrojanTopImplement_map.ncd TrojanTopImplement.ncd TrojanTopImplement.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TrojanTopImplement.twx TrojanTopImplement.ncd -o TrojanTopImplement.twr TrojanTopImplement.pcf -ucf TrojanTopImplement.ucf 
 bitgen -intstyle ise -f TrojanTopImplement.ut TrojanTopImplement.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim TrojanTopImplement.ngc TrojanTopImplement_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/TrojanTopImplement.xst" -ofn "C:/Users/Taylor/Documents/GitHub/HtdwrTrjnFPGA/Example/Troja_Chipscop/TrojanTopImplement.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim TrojanTopImplement.ngc TrojanTopImplement_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TrojanTopImplement.ucf -p xc3s1200e-fg320-4 TrojanTopImplement_cs.ngc TrojanTopImplement.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o TrojanTopImplement_map.ncd TrojanTopImplement.ngd TrojanTopImplement.pcf 
+par -w -intstyle ise -ol high -t 1 TrojanTopImplement_map.ncd TrojanTopImplement.ncd TrojanTopImplement.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TrojanTopImplement.twx TrojanTopImplement.ncd -o TrojanTopImplement.twr TrojanTopImplement.pcf -ucf TrojanTopImplement.ucf 
+bitgen -intstyle ise -f TrojanTopImplement.ut TrojanTopImplement.ncd 
