@@ -46,10 +46,13 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="TrojanTopImplement.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="TrojanTopImplement.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="TrojanTopImplement.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TrojanTopImplement_beh.prj"/>
     <file xil_pn:fileType="FILE_BLIF" xil_pn:name="TrojanTopImplement_cs.blc"/>
     <file xil_pn:fileType="FILE_NGC" xil_pn:name="TrojanTopImplement_cs.ngc"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="TrojanTopImplement_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="TrojanTopImplement_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TrojanTopImplement_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TrojanTopImplement_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="TrojanTopImplement_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="TrojanTopImplement_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="TrojanTopImplement_map.ncd" xil_pn:subbranch="Map"/>
@@ -59,6 +62,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="TrojanTopImplement_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="TrojanTopImplement_pad.txt" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TrojanTopImplement_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TrojanTopImplement_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="TrojanTopImplement_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="TrojanTopImplement_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="TrojanTopImplement_usage.xml"/>
@@ -70,9 +74,12 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
-    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/TrojanTopImplement_synthesis.nlf"/>
-    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/TrojanTopImplement_synthesis.v"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/TrojanTopImplement_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/TrojanTopImplement_synthesis.v"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
@@ -83,11 +90,116 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1462050330" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1462050330">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462050330" xil_pn:in_ck="-8284475449498617923" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1462050330">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Expansion_Permutation.v"/>
+      <outfile xil_pn:name="Initial_Permutation.v"/>
+      <outfile xil_pn:name="Inverse_Initial_Permutation.v"/>
+      <outfile xil_pn:name="Key_Generation.v"/>
+      <outfile xil_pn:name="Key_Top.v"/>
+      <outfile xil_pn:name="Permuatation.v"/>
+      <outfile xil_pn:name="Permuted_Choice2.v"/>
+      <outfile xil_pn:name="Reg32.v"/>
+      <outfile xil_pn:name="Round1.v"/>
+      <outfile xil_pn:name="Sbox_Output.v"/>
+      <outfile xil_pn:name="Sbox_Rom1.v"/>
+      <outfile xil_pn:name="Sbox_Rom2.v"/>
+      <outfile xil_pn:name="Sbox_Rom3.v"/>
+      <outfile xil_pn:name="Sbox_Rom4.v"/>
+      <outfile xil_pn:name="Sbox_Rom5.v"/>
+      <outfile xil_pn:name="Sbox_Rom6.v"/>
+      <outfile xil_pn:name="Sbox_Rom7.v"/>
+      <outfile xil_pn:name="Sbox_Rom8.v"/>
+      <outfile xil_pn:name="Swap.v"/>
+      <outfile xil_pn:name="Top.v"/>
+      <outfile xil_pn:name="TrojanTopImplement _old.v"/>
+      <outfile xil_pn:name="Trojan_Permutation.v"/>
+      <outfile xil_pn:name="Xor_Operation.v"/>
+      <outfile xil_pn:name="Xor_Permutation.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1462050339" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2991593049806491037" xil_pn:start_ts="1462050339">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462050339" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-142098607326255771" xil_pn:start_ts="1462050339">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462050339" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1940179032062104729" xil_pn:start_ts="1462050339">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1462050339" xil_pn:in_ck="-8284475449498617923" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1462050339">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Expansion_Permutation.v"/>
+      <outfile xil_pn:name="Initial_Permutation.v"/>
+      <outfile xil_pn:name="Inverse_Initial_Permutation.v"/>
+      <outfile xil_pn:name="Key_Generation.v"/>
+      <outfile xil_pn:name="Key_Top.v"/>
+      <outfile xil_pn:name="Permuatation.v"/>
+      <outfile xil_pn:name="Permuted_Choice2.v"/>
+      <outfile xil_pn:name="Reg32.v"/>
+      <outfile xil_pn:name="Round1.v"/>
+      <outfile xil_pn:name="Sbox_Output.v"/>
+      <outfile xil_pn:name="Sbox_Rom1.v"/>
+      <outfile xil_pn:name="Sbox_Rom2.v"/>
+      <outfile xil_pn:name="Sbox_Rom3.v"/>
+      <outfile xil_pn:name="Sbox_Rom4.v"/>
+      <outfile xil_pn:name="Sbox_Rom5.v"/>
+      <outfile xil_pn:name="Sbox_Rom6.v"/>
+      <outfile xil_pn:name="Sbox_Rom7.v"/>
+      <outfile xil_pn:name="Sbox_Rom8.v"/>
+      <outfile xil_pn:name="Swap.v"/>
+      <outfile xil_pn:name="Top.v"/>
+      <outfile xil_pn:name="TrojanTopImplement _old.v"/>
+      <outfile xil_pn:name="Trojan_Permutation.v"/>
+      <outfile xil_pn:name="Xor_Operation.v"/>
+      <outfile xil_pn:name="Xor_Permutation.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1462050343" xil_pn:in_ck="-8284475449498617923" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4779283430462647463" xil_pn:start_ts="1462050339">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="TrojanTopImplement_beh.prj"/>
+      <outfile xil_pn:name="TrojanTopImplement_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1462050343" xil_pn:in_ck="-1790338184609056741" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3186628403208632554" xil_pn:start_ts="1462050343">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TrojanTopImplement_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
     <transform xil_pn:end_ts="1430767324" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1345148720625878053" xil_pn:start_ts="1430767324">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -104,28 +216,29 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1430767324" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5485052969259075108" xil_pn:start_ts="1430767324">
+    <transform xil_pn:end_ts="1462077580" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5485052969259075108" xil_pn:start_ts="1462077580">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1430767324" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="784446193463768931" xil_pn:start_ts="1430767324">
+    <transform xil_pn:end_ts="1462077580" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="784446193463768931" xil_pn:start_ts="1462077580">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1461952161" xil_pn:in_ck="-8284475449498617923" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-3398905205501863572" xil_pn:start_ts="1461952084">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
+    <transform xil_pn:end_ts="1462077585" xil_pn:in_ck="-8284475449498617923" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-3398905205501863572" xil_pn:start_ts="1462077580">
+      <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="TrojanTopImplement.lso"/>
       <outfile xil_pn:name="TrojanTopImplement.ngc"/>
-      <outfile xil_pn:name="TrojanTopImplement.ngr"/>
       <outfile xil_pn:name="TrojanTopImplement.prj"/>
-      <outfile xil_pn:name="TrojanTopImplement.stx"/>
       <outfile xil_pn:name="TrojanTopImplement.syr"/>
       <outfile xil_pn:name="TrojanTopImplement.xst"/>
+      <outfile xil_pn:name="TrojanTopImplement_beh.prj"/>
+      <outfile xil_pn:name="TrojanTopImplement_stx_beh.prj"/>
       <outfile xil_pn:name="TrojanTopImplement_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
@@ -135,10 +248,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1461952220" xil_pn:in_ck="-2594713076878932250" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2062551612408450724" xil_pn:start_ts="1461952185">
-      <status xil_pn:value="SuccessfullyRun"/>
+    <transform xil_pn:end_ts="1462076866" xil_pn:in_ck="-2594713076878932250" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2062551612408450724" xil_pn:start_ts="1462076849">
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="TrojanTopImplement.bld"/>
       <outfile xil_pn:name="TrojanTopImplement.ngd"/>
       <outfile xil_pn:name="TrojanTopImplement_cs.blc"/>
@@ -147,10 +261,13 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1461952238" xil_pn:in_ck="-5441036096943210325" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3188416950630775481" xil_pn:start_ts="1461952220">
+    <transform xil_pn:end_ts="1462076875" xil_pn:in_ck="-5441036096943210325" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3188416950630775481" xil_pn:start_ts="1462076866">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TrojanTopImplement.pcf"/>
       <outfile xil_pn:name="TrojanTopImplement_map.map"/>
       <outfile xil_pn:name="TrojanTopImplement_map.mrp"/>
@@ -161,10 +278,11 @@
       <outfile xil_pn:name="TrojanTopImplement_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1461952307" xil_pn:in_ck="407150811299763972" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6268780068511726196" xil_pn:start_ts="1461952238">
+    <transform xil_pn:end_ts="1462076909" xil_pn:in_ck="407150811299763972" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6268780068511726196" xil_pn:start_ts="1462076875">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="TrojanTopImplement.ncd"/>
       <outfile xil_pn:name="TrojanTopImplement.pad"/>
       <outfile xil_pn:name="TrojanTopImplement.par"/>
@@ -176,10 +294,13 @@
       <outfile xil_pn:name="TrojanTopImplement_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1461952429" xil_pn:in_ck="-5021694810717905649" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1461952389">
+    <transform xil_pn:end_ts="1462076929" xil_pn:in_ck="-5021694810717905649" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1462076909">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TrojanTopImplement.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="trojantopimplement.bgn"/>
@@ -189,15 +310,22 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1430851297" xil_pn:in_ck="1856537507199167289" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="-2062551612408450724" xil_pn:start_ts="1430851296">
+    <transform xil_pn:end_ts="1462041022" xil_pn:in_ck="1856537507199167289" xil_pn:name="TRAN_genImpactFile" xil_pn:prop_ck="7121392639749839438" xil_pn:start_ts="1462041014">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="InputChanged"/>
     </transform>
-    <transform xil_pn:end_ts="1461952307" xil_pn:in_ck="7918492975145510183" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1461952295">
+    <transform xil_pn:end_ts="1462076930" xil_pn:in_ck="1856537507199167289" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="-2062551612408450724" xil_pn:start_ts="1462076929">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1462076909" xil_pn:in_ck="7918492975145510183" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1462076903">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="TrojanTopImplement.twr"/>
       <outfile xil_pn:name="TrojanTopImplement.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
@@ -205,6 +333,9 @@
     <transform xil_pn:end_ts="1461952183" xil_pn:in_ck="-5021694810717905518" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-5476235240370272256" xil_pn:start_ts="1461952176">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="netgen"/>
       <outfile xil_pn:name="netgen/synthesis/TrojanTopImplement_synthesis.nlf"/>
       <outfile xil_pn:name="netgen/synthesis/TrojanTopImplement_synthesis.v"/>

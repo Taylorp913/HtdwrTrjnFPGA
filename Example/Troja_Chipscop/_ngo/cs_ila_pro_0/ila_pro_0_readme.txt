@@ -1,5 +1,5 @@
 The following files were generated for 'ila_pro_0' in directory
-C:\Users\admin\Documents\Verilog\Final\Troja_Chipscop\_ngo\cs_ila_pro_0\
+C:\Users\Taylor\Documents\GitHub\HtdwrTrjnFPGA\Example\Troja_Chipscop\_ngo\cs_ila_pro_0\
 
 XCO file generator:
    Generate an XCO file for compatibility with legacy flows.
@@ -9,13 +9,11 @@ XCO file generator:
 Creates an implementation netlist:
    Creates an implementation netlist for the IP.
 
-   * err_999.log
    * ila_pro_0.cdc
    * ila_pro_0.ngc
    * ila_pro_0.ucf
    * ila_pro_0.vhd
    * ila_pro_0.vho
-   * ila_pro_0.xco
 
 Creates an HDL instantiation template:
    Creates an HDL instantiation template for the IP.

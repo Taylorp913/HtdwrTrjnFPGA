@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
--- Copyright (c) 2015 Xilinx, Inc.
+-- Copyright (c) 2016 Xilinx, Inc.
 -- All Rights Reserved
 -------------------------------------------------------------------------------
 --   ____  ____
@@ -8,7 +8,7 @@
 -- \   \   \/     Version    : 14.7
 --  \   \         Application: Xilinx CORE Generator
 --  /   /         Filename   : ila_pro_0.vho
--- /___/   /\     Timestamp  : Mon May 04 13:33:21 Mountain Daylight Time 2015
+-- /___/   /\     Timestamp  : Sat Apr 30 22:01:07 Mountain Daylight Time 2016
 -- \   \  /  \
 --  \___\/\___\
 --
@@ -27,7 +27,8 @@ component ila_pro_0
     TRIG2 : IN STD_LOGIC_VECTOR(0 TO 0);
     TRIG3 : IN STD_LOGIC_VECTOR(0 TO 0);
     TRIG4 : IN STD_LOGIC_VECTOR(0 TO 0);
-    TRIG5 : IN STD_LOGIC_VECTOR(0 TO 0));
+    TRIG5 : IN STD_LOGIC_VECTOR(0 TO 0);
+    TRIG6 : IN STD_LOGIC_VECTOR(7 DOWNTO 0));
 
 end component;
 
@@ -45,6 +46,7 @@ your_instance_name : ila_pro_0
     TRIG2 => TRIG2,
     TRIG3 => TRIG3,
     TRIG4 => TRIG4,
-    TRIG5 => TRIG5);
+    TRIG5 => TRIG5,
+    TRIG6 => TRIG6);
 
 -- INST_TAG_END ------ End INSTANTIATION Template ------------

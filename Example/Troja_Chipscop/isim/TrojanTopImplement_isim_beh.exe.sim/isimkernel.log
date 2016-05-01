@@ -1,0 +1,29 @@
+Command line:
+   TrojanTopImplement_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51040
+
+Sat Apr 30 15:05:46 2016
+
+
+ Elaboration Time: 0.234375 sec
+
+ Current Memory Usage: 1526.63 Meg
+
+ Total Signals          : 1333
+ Total Nets             : 9301
+ Total Signal Drivers   : 582
+ Total Blocks           : 265
+ Total Primitive Blocks : 246
+ Total Processes        : 815
+ Total Traceable Variables  : 271
+ Total Scalar Nets and Variables : 14308
+Total Line Count : 11811
+
+ Total Simulation Time: 0.796875 sec
+
+ Current Memory Usage: 582.861 Meg
+
+Sat Apr 30 16:51:47 2016
+

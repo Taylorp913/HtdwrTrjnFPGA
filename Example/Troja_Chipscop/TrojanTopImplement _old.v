@@ -77,6 +77,7 @@ reg		[2:0]	partNum;
 
 
 reg  [11:0] ledcounter;
+reg  [20:0] ledclkDIV;
 reg    ledClk;
 
 //
@@ -372,14 +373,20 @@ always @(posedge CLK)begin
 end
 
 
+
 always @(posedge CLK)begin
- if(RST)
+ if(RST) begin
   ledClk <= 0;
- else
-  if(ledcounter==TrojanSendingFrq)
-   ledClk <= ~ledClk;
-  else
+ end else begin
+  if(ledcounter==TrojanSendingFrq) begin
+   ledclkDIV <= ledclkDIV+1;
+	if(ledclkDIV==50000) begin
+		ledClk <= ~ledClk;
+		ledclkDIV<=1;
+		end
+	end else begin
    ledClk <= ledClk;
 end
-
+end
+end
 endmodule 
