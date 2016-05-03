@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.7
-# Date: Sun May 01 03:58:16 2016
+# Date: Tue May 03 22:29:03 2016
 #
 ##############################################################
 #
@@ -75,7 +75,7 @@ CSET exclude_from_data_storage_16=false
 CSET exclude_from_data_storage_2=false
 CSET exclude_from_data_storage_3=false
 CSET exclude_from_data_storage_4=false
-CSET exclude_from_data_storage_5=false
+CSET exclude_from_data_storage_5=true
 CSET exclude_from_data_storage_6=false
 CSET exclude_from_data_storage_7=false
 CSET exclude_from_data_storage_8=false
@@ -94,8 +94,8 @@ CSET match_type_4=basic_with_edges
 CSET match_type_5=basic_with_edges
 CSET match_type_6=basic_with_edges
 CSET match_type_7=basic_with_edges
-CSET match_type_8=basic
-CSET match_type_9=basic
+CSET match_type_8=basic_with_edges
+CSET match_type_9=basic_with_edges
 CSET match_units_1=1
 CSET match_units_10=1
 CSET match_units_11=1
@@ -113,8 +113,8 @@ CSET match_units_7=1
 CSET match_units_8=1
 CSET match_units_9=1
 CSET max_sequence_levels=16
-CSET number_of_trigger_ports=7
-CSET sample_data_depth=1024
+CSET number_of_trigger_ports=9
+CSET sample_data_depth=16384
 CSET sample_on=Rising
 CSET trigger_port_width_1=1
 CSET trigger_port_width_10=1
@@ -129,7 +129,7 @@ CSET trigger_port_width_3=1
 CSET trigger_port_width_4=1
 CSET trigger_port_width_5=1
 CSET trigger_port_width_6=1
-CSET trigger_port_width_7=8
+CSET trigger_port_width_7=1
 CSET trigger_port_width_8=1
 CSET trigger_port_width_9=1
 CSET use_rpms=true
@@ -138,4 +138,4 @@ CSET use_rpms=true
 MISC pkg_timestamp=2013-10-13T14:13:15Z
 # END Extra information
 GENERATE
-# CRC: 6e1c163f
+# CRC: f57902cb

