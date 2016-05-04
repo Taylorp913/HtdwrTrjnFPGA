@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Reading design: TrojanTopImplement.prj
 
@@ -482,7 +482,6 @@ Unit <Des_Top> synthesized.
 Synthesizing Unit <TrojanTopImplement>.
     Related source file is "TrojanTopImplement _old.v".
 WARNING:Xst:1780 - Signal <ledclkDIV2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <KEY_PERMUTATION> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 8-bit register for signal <SendData>.
     Found 1-bit register for signal <SendDataReady>.
     Found 1-bit register for signal <SendLED>.
@@ -549,8 +548,52 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:1290 - Hierarchical block <Permute1> is unconnected in block <TrojanTopImplement>.
-   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <trojanKey_31> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_32> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_33> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_34> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_35> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_36> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_37> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_38> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_39> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_42> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_43> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_44> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_45> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_46> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_47> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_49> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_51> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_53> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_55> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_57> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_59> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_61> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_63> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_0> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_1> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_2> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_3> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_4> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_5> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_6> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_7> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_8> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_9> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_10> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_11> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_12> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_13> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_14> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_15> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_17> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_19> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_21> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_23> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_25> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_27> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_29> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -582,70 +625,6 @@ Macro Statistics
 =========================================================================
 INFO:Xst:2261 - The FF/Latch <plainTxtR_0> in Unit <TrojanTopImplement> is equivalent to the following 63 FFs/Latches, which will be removed : <plainTxtR_1> <plainTxtR_2> <plainTxtR_3> <plainTxtR_4> <plainTxtR_5> <plainTxtR_6> <plainTxtR_7> <plainTxtR_8> <plainTxtR_9> <plainTxtR_10> <plainTxtR_11> <plainTxtR_12> <plainTxtR_13> <plainTxtR_14> <plainTxtR_15> <plainTxtR_16> <plainTxtR_17> <plainTxtR_18> <plainTxtR_19> <plainTxtR_20> <plainTxtR_21> <plainTxtR_22> <plainTxtR_23> <plainTxtR_24> <plainTxtR_25> <plainTxtR_26> <plainTxtR_27> <plainTxtR_28> <plainTxtR_29> <plainTxtR_30> <plainTxtR_31> <plainTxtR_32> <plainTxtR_33> <plainTxtR_34> <plainTxtR_35> <plainTxtR_36> <plainTxtR_37> <plainTxtR_38> <plainTxtR_39> <plainTxtR_40> <plainTxtR_41> <plainTxtR_42> <plainTxtR_43> <plainTxtR_44> <plainTxtR_45> <plainTxtR_46> <plainTxtR_47> <plainTxtR_48> <plainTxtR_49> <plainTxtR_50> <plainTxtR_51> <plainTxtR_52> <plainTxtR_53> <plainTxtR_54> <plainTxtR_55> <plainTxtR_56> <plainTxtR_57> <plainTxtR_58> <plainTxtR_59>
    <plainTxtR_60> <plainTxtR_61> <plainTxtR_62> <plainTxtR_63> 
-WARNING:Xst:2677 - Node <trojanKey_0> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_1> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_2> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_3> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_4> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_5> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_6> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_7> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_8> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_9> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_10> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_11> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_12> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_13> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_14> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_15> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_16> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_17> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_18> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_19> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_20> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_21> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_22> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_23> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_24> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_25> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_26> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_27> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_28> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_29> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_30> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_31> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_32> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_33> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_34> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_35> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_36> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_37> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_38> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_39> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_40> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_41> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_42> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_43> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_44> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_45> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_46> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_47> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_48> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_49> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_50> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_51> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_52> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_53> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_54> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_55> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_56> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_57> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_58> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_59> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_60> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_61> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_62> of sequential type is unconnected in block <TrojanTopImplement>.
-WARNING:Xst:2677 - Node <trojanKey_63> of sequential type is unconnected in block <TrojanTopImplement>.
 WARNING:Xst:2042 - Unit Key_Generation: 56 internal tristates are replaced by logic (pull-up yes): OUTPUT_PERMUTATION_CHOICE1<10>, OUTPUT_PERMUTATION_CHOICE1<11>, OUTPUT_PERMUTATION_CHOICE1<12>, OUTPUT_PERMUTATION_CHOICE1<13>, OUTPUT_PERMUTATION_CHOICE1<14>, OUTPUT_PERMUTATION_CHOICE1<15>, OUTPUT_PERMUTATION_CHOICE1<16>, OUTPUT_PERMUTATION_CHOICE1<17>, OUTPUT_PERMUTATION_CHOICE1<18>, OUTPUT_PERMUTATION_CHOICE1<19>, OUTPUT_PERMUTATION_CHOICE1<1>, OUTPUT_PERMUTATION_CHOICE1<20>, OUTPUT_PERMUTATION_CHOICE1<21>, OUTPUT_PERMUTATION_CHOICE1<22>, OUTPUT_PERMUTATION_CHOICE1<23>, OUTPUT_PERMUTATION_CHOICE1<24>, OUTPUT_PERMUTATION_CHOICE1<25>, OUTPUT_PERMUTATION_CHOICE1<26>, OUTPUT_PERMUTATION_CHOICE1<27>, OUTPUT_PERMUTATION_CHOICE1<28>, OUTPUT_PERMUTATION_CHOICE1<29>, OUTPUT_PERMUTATION_CHOICE1<2>, OUTPUT_PERMUTATION_CHOICE1<30>, OUTPUT_PERMUTATION_CHOICE1<31>, OUTPUT_PERMUTATION_CHOICE1<32>, OUTPUT_PERMUTATION_CHOICE1<33>, OUTPUT_PERMUTATION_CHOICE1<34>, OUTPUT_PERMUTATION_CHOICE1<35>, OUTPUT_PERMUTATION_CHOICE1<36>, OUTPUT_PERMUTATION_CHOICE1<37>, OUTPUT_PERMUTATION_CHOICE1<38>, OUTPUT_PERMUTATION_CHOICE1<39>, OUTPUT_PERMUTATION_CHOICE1<3>, OUTPUT_PERMUTATION_CHOICE1<40>, OUTPUT_PERMUTATION_CHOICE1<41>, OUTPUT_PERMUTATION_CHOICE1<42>, OUTPUT_PERMUTATION_CHOICE1<43>, OUTPUT_PERMUTATION_CHOICE1<44>, OUTPUT_PERMUTATION_CHOICE1<45>, OUTPUT_PERMUTATION_CHOICE1<46>, OUTPUT_PERMUTATION_CHOICE1<47>, OUTPUT_PERMUTATION_CHOICE1<48>, OUTPUT_PERMUTATION_CHOICE1<49>, OUTPUT_PERMUTATION_CHOICE1<4>, OUTPUT_PERMUTATION_CHOICE1<50>, OUTPUT_PERMUTATION_CHOICE1<51>, OUTPUT_PERMUTATION_CHOICE1<52>, OUTPUT_PERMUTATION_CHOICE1<53>, OUTPUT_PERMUTATION_CHOICE1<54>, OUTPUT_PERMUTATION_CHOICE1<55>, OUTPUT_PERMUTATION_CHOICE1<56>, OUTPUT_PERMUTATION_CHOICE1<5>, OUTPUT_PERMUTATION_CHOICE1<6>, OUTPUT_PERMUTATION_CHOICE1<7>, OUTPUT_PERMUTATION_CHOICE1<8>, OUTPUT_PERMUTATION_CHOICE1<9>.
 WARNING:Xst:2042 - Unit Initial_Permutation: 64 internal tristates are replaced by logic (pull-up yes): INITIAL_PERMUTATION_OUTPUT<10>, INITIAL_PERMUTATION_OUTPUT<11>, INITIAL_PERMUTATION_OUTPUT<12>, INITIAL_PERMUTATION_OUTPUT<13>, INITIAL_PERMUTATION_OUTPUT<14>, INITIAL_PERMUTATION_OUTPUT<15>, INITIAL_PERMUTATION_OUTPUT<16>, INITIAL_PERMUTATION_OUTPUT<17>, INITIAL_PERMUTATION_OUTPUT<18>, INITIAL_PERMUTATION_OUTPUT<19>, INITIAL_PERMUTATION_OUTPUT<1>, INITIAL_PERMUTATION_OUTPUT<20>, INITIAL_PERMUTATION_OUTPUT<21>, INITIAL_PERMUTATION_OUTPUT<22>, INITIAL_PERMUTATION_OUTPUT<23>, INITIAL_PERMUTATION_OUTPUT<24>, INITIAL_PERMUTATION_OUTPUT<25>, INITIAL_PERMUTATION_OUTPUT<26>, INITIAL_PERMUTATION_OUTPUT<27>, INITIAL_PERMUTATION_OUTPUT<28>, INITIAL_PERMUTATION_OUTPUT<29>, INITIAL_PERMUTATION_OUTPUT<2>, INITIAL_PERMUTATION_OUTPUT<30>, INITIAL_PERMUTATION_OUTPUT<31>, INITIAL_PERMUTATION_OUTPUT<32>, INITIAL_PERMUTATION_OUTPUT<33>, INITIAL_PERMUTATION_OUTPUT<34>, INITIAL_PERMUTATION_OUTPUT<35>, INITIAL_PERMUTATION_OUTPUT<36>, INITIAL_PERMUTATION_OUTPUT<37>, INITIAL_PERMUTATION_OUTPUT<38>, INITIAL_PERMUTATION_OUTPUT<39>, INITIAL_PERMUTATION_OUTPUT<3>, INITIAL_PERMUTATION_OUTPUT<40>, INITIAL_PERMUTATION_OUTPUT<41>, INITIAL_PERMUTATION_OUTPUT<42>, INITIAL_PERMUTATION_OUTPUT<43>, INITIAL_PERMUTATION_OUTPUT<44>, INITIAL_PERMUTATION_OUTPUT<45>, INITIAL_PERMUTATION_OUTPUT<46>, INITIAL_PERMUTATION_OUTPUT<47>, INITIAL_PERMUTATION_OUTPUT<48>, INITIAL_PERMUTATION_OUTPUT<49>, INITIAL_PERMUTATION_OUTPUT<4>, INITIAL_PERMUTATION_OUTPUT<50>, INITIAL_PERMUTATION_OUTPUT<51>, INITIAL_PERMUTATION_OUTPUT<52>, INITIAL_PERMUTATION_OUTPUT<53>, INITIAL_PERMUTATION_OUTPUT<54>, INITIAL_PERMUTATION_OUTPUT<55>, INITIAL_PERMUTATION_OUTPUT<56>, INITIAL_PERMUTATION_OUTPUT<57>, INITIAL_PERMUTATION_OUTPUT<58>, INITIAL_PERMUTATION_OUTPUT<59>, INITIAL_PERMUTATION_OUTPUT<5>, INITIAL_PERMUTATION_OUTPUT<60>, INITIAL_PERMUTATION_OUTPUT<61>, INITIAL_PERMUTATION_OUTPUT<62>, INITIAL_PERMUTATION_OUTPUT<63>, INITIAL_PERMUTATION_OUTPUT<64>, INITIAL_PERMUTATION_OUTPUT<6>, INITIAL_PERMUTATION_OUTPUT<7>, INITIAL_PERMUTATION_OUTPUT<8>, INITIAL_PERMUTATION_OUTPUT<9>.
 
@@ -660,44 +639,81 @@ Optimizing unit <Reg32> ...
 Optimizing unit <Round1> ...
 
 Optimizing unit <Des_Top> ...
+WARNING:Xst:1710 - FF/Latch <trojanKey_31> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_32> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_33> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_34> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_35> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_36> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_37> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_38> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_39> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_42> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_43> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_44> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_45> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_46> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_47> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_49> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_51> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_53> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_55> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_57> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_59> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_61> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_63> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_0> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_1> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_2> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_3> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_4> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_5> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_6> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_7> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_8> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_9> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_10> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_11> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_12> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_13> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_14> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_15> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_17> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_19> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_21> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_23> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_25> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_27> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <trojanKey_29> (without init value) has a constant value of 1 in block <TrojanTopImplement>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <trojanKey_40> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <trojanKey_41> 
 INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/LEFT_REG1_32> in Unit <TrojanTopImplement> is equivalent to the following 31 FFs/Latches, which will be removed : <DES1/round1/input_to_round2/LEFT_REG1_31> <DES1/round1/input_to_round2/LEFT_REG1_30> <DES1/round1/input_to_round2/LEFT_REG1_29> <DES1/round1/input_to_round2/LEFT_REG1_28> <DES1/round1/input_to_round2/LEFT_REG1_27> <DES1/round1/input_to_round2/LEFT_REG1_26> <DES1/round1/input_to_round2/LEFT_REG1_25> <DES1/round1/input_to_round2/LEFT_REG1_24> <DES1/round1/input_to_round2/LEFT_REG1_23> <DES1/round1/input_to_round2/LEFT_REG1_22> <DES1/round1/input_to_round2/LEFT_REG1_21> <DES1/round1/input_to_round2/LEFT_REG1_20> <DES1/round1/input_to_round2/LEFT_REG1_19> <DES1/round1/input_to_round2/LEFT_REG1_18> <DES1/round1/input_to_round2/LEFT_REG1_17> <DES1/round1/input_to_round2/LEFT_REG1_16> <DES1/round1/input_to_round2/LEFT_REG1_15> <DES1/round1/input_to_round2/LEFT_REG1_14> <DES1/round1/input_to_round2/LEFT_REG1_13>
    <DES1/round1/input_to_round2/LEFT_REG1_12> <DES1/round1/input_to_round2/LEFT_REG1_11> <DES1/round1/input_to_round2/LEFT_REG1_10> <DES1/round1/input_to_round2/LEFT_REG1_9> <DES1/round1/input_to_round2/LEFT_REG1_8> <DES1/round1/input_to_round2/LEFT_REG1_7> <DES1/round1/input_to_round2/LEFT_REG1_6> <DES1/round1/input_to_round2/LEFT_REG1_5> <DES1/round1/input_to_round2/LEFT_REG1_4> <DES1/round1/input_to_round2/LEFT_REG1_3> <DES1/round1/input_to_round2/LEFT_REG1_2> <DES1/round1/input_to_round2/LEFT_REG1_1> 
+INFO:Xst:2261 - The FF/Latch <trojanKey_16> in Unit <TrojanTopImplement> is equivalent to the following 15 FFs/Latches, which will be removed : <trojanKey_18> <trojanKey_20> <trojanKey_22> <trojanKey_24> <trojanKey_26> <trojanKey_28> <trojanKey_30> <trojanKey_48> <trojanKey_50> <trojanKey_52> <trojanKey_54> <trojanKey_56> <trojanKey_58> <trojanKey_60> <trojanKey_62> 
 Found area constraint ratio of 100 (+ 5) on block TrojanTopImplement, actual ratio is 20.
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_16> in Unit <TrojanTopImplement> is equivalent to the following 2 FFs/Latches : <DES1/round1/input_to_round2/RIGHT_REG1_10> <DES1/round1/input_to_round2/LEFT_REG1_32> 
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_22> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch : <DES1/round1/input_to_round2/RIGHT_REG1_12> 
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_25> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch : <DES1/round1/input_to_round2/RIGHT_REG1_14> 
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_32> in Unit <TrojanTopImplement> is equivalent to the following 4 FFs/Latches : <DES1/round1/input_to_round2/RIGHT_REG1_20> <DES1/round1/input_to_round2/RIGHT_REG1_19> <DES1/round1/input_to_round2/RIGHT_REG1_15> <DES1/round1/input_to_round2/RIGHT_REG1_2> 
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_21> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch : <DES1/round1/input_to_round2/RIGHT_REG1_7> 
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_23> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch : <DES1/round1/input_to_round2/RIGHT_REG1_8> 
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_18> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch : <DES1/round1/input_to_round2/RIGHT_REG1_5> 
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_24> in Unit <TrojanTopImplement> is equivalent to the following 3 FFs/Latches : <DES1/round1/input_to_round2/RIGHT_REG1_17> <DES1/round1/input_to_round2/RIGHT_REG1_11> <DES1/round1/input_to_round2/RIGHT_REG1_3> 
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_31> in Unit <TrojanTopImplement> is equivalent to the following 3 FFs/Latches : <DES1/round1/input_to_round2/RIGHT_REG1_30> <DES1/round1/input_to_round2/RIGHT_REG1_9> <DES1/round1/input_to_round2/RIGHT_REG1_6> 
-INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_28> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch : <DES1/round1/input_to_round2/RIGHT_REG1_1> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_16> in Unit <TrojanTopImplement> is equivalent to the following 2 FFs/Latches, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_10> <DES1/round1/input_to_round2/LEFT_REG1_32> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_22> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_12> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_25> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_14> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_32> in Unit <TrojanTopImplement> is equivalent to the following 4 FFs/Latches, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_20> <DES1/round1/input_to_round2/RIGHT_REG1_19> <DES1/round1/input_to_round2/RIGHT_REG1_15> <DES1/round1/input_to_round2/RIGHT_REG1_2> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_21> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_7> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_23> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_8> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_18> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_5> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_24> in Unit <TrojanTopImplement> is equivalent to the following 3 FFs/Latches, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_17> <DES1/round1/input_to_round2/RIGHT_REG1_11> <DES1/round1/input_to_round2/RIGHT_REG1_3> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_31> in Unit <TrojanTopImplement> is equivalent to the following 3 FFs/Latches, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_30> <DES1/round1/input_to_round2/RIGHT_REG1_9> <DES1/round1/input_to_round2/RIGHT_REG1_6> 
-INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_28> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_1> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_28> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_1> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_24> in Unit <TrojanTopImplement> is equivalent to the following 3 FFs/Latches, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_17> <DES1/round2/input_to_round2/LEFT_REG1_11> <DES1/round2/input_to_round2/LEFT_REG1_3> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_22> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_12> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_25> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_14> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_32> in Unit <TrojanTopImplement> is equivalent to the following 4 FFs/Latches, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_20> <DES1/round2/input_to_round2/LEFT_REG1_19> <DES1/round2/input_to_round2/LEFT_REG1_15> <DES1/round2/input_to_round2/LEFT_REG1_2> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_21> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_7> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_23> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_8> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_18> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_5> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_31> in Unit <TrojanTopImplement> is equivalent to the following 3 FFs/Latches, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_30> <DES1/round2/input_to_round2/LEFT_REG1_9> <DES1/round2/input_to_round2/LEFT_REG1_6> 
-INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_16> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_10> 
+INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_18> in Unit <TrojanTopImplement> is equivalent to the following 2 FFs/Latches : <DES1/round1/input_to_round2/RIGHT_REG1_17> <DES1/round1/input_to_round2/RIGHT_REG1_1> 
+INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_28> in Unit <TrojanTopImplement> is equivalent to the following 6 FFs/Latches : <DES1/round1/input_to_round2/RIGHT_REG1_26> <DES1/round1/input_to_round2/RIGHT_REG1_13> <DES1/round1/input_to_round2/RIGHT_REG1_11> <DES1/round1/input_to_round2/RIGHT_REG1_10> <DES1/round1/input_to_round2/RIGHT_REG1_4> <DES1/round1/input_to_round2/LEFT_REG1_32> 
+INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_29> in Unit <TrojanTopImplement> is equivalent to the following 4 FFs/Latches : <DES1/round1/input_to_round2/RIGHT_REG1_21> <DES1/round1/input_to_round2/RIGHT_REG1_19> <DES1/round1/input_to_round2/RIGHT_REG1_12> <DES1/round1/input_to_round2/RIGHT_REG1_8> 
+INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_22> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch : <DES1/round1/input_to_round2/RIGHT_REG1_14> 
+INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_31> in Unit <TrojanTopImplement> is equivalent to the following 2 FFs/Latches : <DES1/round1/input_to_round2/RIGHT_REG1_27> <DES1/round1/input_to_round2/RIGHT_REG1_9> 
+INFO:Xst:2260 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_5> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch : <DES1/round1/input_to_round2/RIGHT_REG1_3> 
+INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_18> in Unit <TrojanTopImplement> is equivalent to the following 2 FFs/Latches, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_17> <DES1/round1/input_to_round2/RIGHT_REG1_1> 
+INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_28> in Unit <TrojanTopImplement> is equivalent to the following 6 FFs/Latches, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_26> <DES1/round1/input_to_round2/RIGHT_REG1_13> <DES1/round1/input_to_round2/RIGHT_REG1_11> <DES1/round1/input_to_round2/RIGHT_REG1_10> <DES1/round1/input_to_round2/RIGHT_REG1_4> <DES1/round1/input_to_round2/LEFT_REG1_32> 
+INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_29> in Unit <TrojanTopImplement> is equivalent to the following 4 FFs/Latches, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_21> <DES1/round1/input_to_round2/RIGHT_REG1_19> <DES1/round1/input_to_round2/RIGHT_REG1_12> <DES1/round1/input_to_round2/RIGHT_REG1_8> 
+INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_22> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_14> 
+INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_31> in Unit <TrojanTopImplement> is equivalent to the following 2 FFs/Latches, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_27> <DES1/round1/input_to_round2/RIGHT_REG1_9> 
+INFO:Xst:2261 - The FF/Latch <DES1/round1/input_to_round2/RIGHT_REG1_5> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round1/input_to_round2/RIGHT_REG1_3> 
+INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_18> in Unit <TrojanTopImplement> is equivalent to the following 2 FFs/Latches, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_17> <DES1/round2/input_to_round2/LEFT_REG1_1> 
+INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_5> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_3> 
+INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_29> in Unit <TrojanTopImplement> is equivalent to the following 4 FFs/Latches, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_21> <DES1/round2/input_to_round2/LEFT_REG1_19> <DES1/round2/input_to_round2/LEFT_REG1_12> <DES1/round2/input_to_round2/LEFT_REG1_8> 
+INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_22> in Unit <TrojanTopImplement> is equivalent to the following FF/Latch, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_14> 
+INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_31> in Unit <TrojanTopImplement> is equivalent to the following 2 FFs/Latches, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_27> <DES1/round2/input_to_round2/LEFT_REG1_9> 
+INFO:Xst:2261 - The FF/Latch <DES1/round2/input_to_round2/LEFT_REG1_28> in Unit <TrojanTopImplement> is equivalent to the following 5 FFs/Latches, which will be removed : <DES1/round2/input_to_round2/LEFT_REG1_26> <DES1/round2/input_to_round2/LEFT_REG1_13> <DES1/round2/input_to_round2/LEFT_REG1_11> <DES1/round2/input_to_round2/LEFT_REG1_10> <DES1/round2/input_to_round2/LEFT_REG1_4> 
 FlipFlop addrR has been replicated 1 time(s)
 INFO:Xst:1843 - HDL ADVISOR - FlipFlop addrR connected to a primary input has been replicated
+FlipFlop chipSelectR has been replicated 6 time(s)
 
 Final Macro Processing ...
 
@@ -735,34 +751,34 @@ Design Statistics
 # IOs                              : 14
 
 Cell Usage :
-# BELS                             : 4321
+# BELS                             : 3931
 #      GND                         : 1
-#      INV                         : 12
+#      INV                         : 32
 #      LUT1                        : 71
-#      LUT2                        : 440
-#      LUT2_D                      : 96
-#      LUT2_L                      : 1
-#      LUT3                        : 128
-#      LUT3_D                      : 25
-#      LUT3_L                      : 3
-#      LUT4                        : 2406
-#      LUT4_D                      : 4
-#      LUT4_L                      : 11
+#      LUT2                        : 255
+#      LUT2_D                      : 27
+#      LUT2_L                      : 4
+#      LUT3                        : 107
+#      LUT3_D                      : 5
+#      LUT3_L                      : 11
+#      LUT4                        : 2302
+#      LUT4_D                      : 5
+#      LUT4_L                      : 28
 #      MUXCY                       : 83
-#      MUXF5                       : 957
+#      MUXF5                       : 917
 #      MUXF6                       : 8
 #      VCC                         : 1
 #      XORCY                       : 74
 # FlipFlops/Latches                : 1207
 #      FD                          : 1
-#      FDC                         : 959
-#      FDCE                        : 80
+#      FDC                         : 951
 #      FDE                         : 22
 #      FDR                         : 60
-#      FDRE                        : 81
+#      FDRE                        : 161
 #      FDRS                        : 1
 #      FDRSE                       : 2
-#      FDS                         : 1
+#      FDS                         : 7
+#      FDSE                        : 2
 # Clock Buffers                    : 2
 #      BUFG                        : 1
 #      BUFGP                       : 1
@@ -776,9 +792,9 @@ Device utilization summary:
 
 Selected Device : 3s1200efg320-4 
 
- Number of Slices:                     1742  out of   8672    20%  
+ Number of Slices:                     1666  out of   8672    19%  
  Number of Slice Flip Flops:           1207  out of  17344     6%  
- Number of 4 input LUTs:               3197  out of  17344    18%  
+ Number of 4 input LUTs:               2847  out of  17344    16%  
  Number of IOs:                          14
  Number of bonded IOBs:                  14  out of    250     5%  
  Number of GCLKs:                         2  out of     24     8%  
@@ -813,14 +829,14 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-RST                                | IBUF                   | 1039  |
+RST                                | IBUF                   | 951   |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 6.685ns (Maximum Frequency: 149.583MHz)
+   Minimum period: 6.443ns (Maximum Frequency: 155.207MHz)
    Minimum input arrival time before clock: 5.677ns
    Maximum output required time after clock: 4.283ns
    Maximum combinational path delay: No path found
@@ -831,27 +847,28 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CLK'
-  Clock period: 6.685ns (frequency: 149.583MHz)
-  Total number of paths / destination ports: 23447 / 1289
+  Clock period: 6.443ns (frequency: 155.207MHz)
+  Total number of paths / destination ports: 15662 / 1289
 -------------------------------------------------------------------------
-Delay:               6.685ns (Levels of Logic = 3)
-  Source:            desRdyCnt_3 (FF)
-  Destination:       desRdyCnt_0 (FF)
+Delay:               6.443ns (Levels of Logic = 4)
+  Source:            rs232Cnt_13 (FF)
+  Destination:       sendingFlagR (FF)
   Source Clock:      CLK rising
   Destination Clock: CLK rising
 
-  Data Path: desRdyCnt_3 to desRdyCnt_0
+  Data Path: rs232Cnt_13 to sendingFlagR
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              3   0.591   0.706  desRdyCnt_3 (desRdyCnt_3)
-     LUT2:I0->O            1   0.704   0.424  sendingDataR_cmp_eq0000_SW0 (N2)
-     LUT4:I3->O           67   0.704   1.308  sendingDataR_cmp_eq0000 (sendingDataR_cmp_eq0000)
-     LUT3:I2->O            5   0.704   0.633  desRdyCnt_or00001 (desRdyCnt_or0000)
-     FDR:R                     0.911          desRdyCnt_0
+     FDR:C->Q              2   0.591   0.622  rs232Cnt_13 (rs232Cnt_13)
+     LUT4:I0->O            1   0.704   0.424  SendDataReady_and0000112 (SendDataReady_and0000112)
+     LUT4:I3->O            4   0.704   0.591  SendDataReady_and0000139 (N01)
+     LUT4_D:I3->O          1   0.704   0.424  sendingFlagR_cmp_eq0000 (sendingFlagR_cmp_eq0000)
+     LUT4:I3->O            1   0.704   0.420  sendingFlagR_and00001 (sendingFlagR_and0000)
+     FDRSE:CE                  0.555          sendingFlagR
     ----------------------------------------
-    Total                      6.685ns (3.614ns logic, 3.071ns route)
-                                       (54.1% logic, 45.9% route)
+    Total                      6.443ns (3.962ns logic, 2.481ns route)
+                                       (61.5% logic, 38.5% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'FreqingCLK/ClkOut1'
@@ -868,16 +885,16 @@ Delay:               2.129ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.591   0.526  trojanKeyR_0 (trojanKeyR_0)
+     FDRE:C->Q             2   0.591   0.526  trojanKeyR_0 (trojanKeyR_0)
      LUT2:I1->O            1   0.704   0.000  trojanKeyR_mux0000<79>1 (trojanKeyR_mux0000<79>)
-     FDCE:D                    0.308          trojanKeyR_79
+     FDRE:D                    0.308          trojanKeyR_79
     ----------------------------------------
     Total                      2.129ns (1.603ns logic, 0.526ns route)
                                        (75.3% logic, 24.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
-  Total number of paths / destination ports: 146 / 146
+  Total number of paths / destination ports: 160 / 160
 -------------------------------------------------------------------------
 Offset:              5.677ns (Levels of Logic = 3)
   Source:            RST (PAD)
@@ -888,13 +905,32 @@ Offset:              5.677ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O          1130   1.218   1.585  RST_IBUF (RST_IBUF)
+     IBUF:I->O          1124   1.218   1.585  RST_IBUF (RST_IBUF)
      LUT3_L:I0->LO         1   0.704   0.135  SendDataReady_and0000_SW1 (N8)
      LUT4:I2->O            1   0.704   0.420  SendDataReady_or00001 (SendDataReady_or0000)
      FDR:R                     0.911          SendDataReady
     ----------------------------------------
     Total                      5.677ns (3.537ns logic, 2.140ns route)
                                        (62.3% logic, 37.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FreqingCLK/ClkOut1'
+  Total number of paths / destination ports: 80 / 80
+-------------------------------------------------------------------------
+Offset:              3.539ns (Levels of Logic = 1)
+  Source:            RST (PAD)
+  Destination:       trojanKeyR_0 (FF)
+  Destination Clock: FreqingCLK/ClkOut1 rising
+
+  Data Path: RST to trojanKeyR_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O          1124   1.218   1.410  RST_IBUF (RST_IBUF)
+     FDRE:R                    0.911          trojanKeyR_0
+    ----------------------------------------
+    Total                      3.539ns (2.129ns logic, 1.410ns route)
+                                       (60.2% logic, 39.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
@@ -918,14 +954,14 @@ Offset:              4.283ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 26.00 secs
-Total CPU time to Xst completion: 26.18 secs
+Total REAL time to Xst completion: 33.00 secs
+Total CPU time to Xst completion: 33.12 secs
  
 --> 
 
-Total memory usage is 358284 kilobytes
+Total memory usage is 392396 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   78 (   0 filtered)
-Number of infos    :   33 (   0 filtered)
+Number of warnings :  104 (   0 filtered)
+Number of infos    :   23 (   0 filtered)
 

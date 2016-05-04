@@ -58,9 +58,9 @@ module Key_Generation(CHIP_SELECT_BAR, ADDRESS, LEFT_CIRCULAR_SHIFT1, RIGHT_CIRC
 
          case (ADDRESS)			
 								  
-			      1'b0    : KEY = 64'h 0000000000000000; 
+			      1'b0    : KEY = 64'hAAAAFFFFAAAAFFFF; 
 			  
-      		   default : KEY = 64'h 1111001010110001;
+      		   default : KEY = 64'hAAAAFCFFAAAAFFFF;
 				 
 		   endcase
 	   

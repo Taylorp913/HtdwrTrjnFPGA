@@ -11,8 +11,9 @@ module clockdivider(Clk, ClkOut);
    input Clk;
    output reg ClkOut;
   
-   parameter DivVal = 10; //25000000;
-   reg[24:0] DivCnt;
+   //parameter DivVal = 650; //25000000;
+   parameter DivVal = 10;
+	reg[24:0] DivCnt;
    reg ClkInt;
 	
    always @(posedge Clk) begin

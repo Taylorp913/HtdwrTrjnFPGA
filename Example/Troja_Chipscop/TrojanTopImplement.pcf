@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue May 03 16:32:12 2016
+// Written by: Map P.20131013 on Tue May 03 22:49:15 2016
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -79,21 +79,21 @@ TIMEGRP D_CLK = BEL "chipSelectR" BEL "busyR" BEL "desRunR" BEL "sendingFlagR"
         "sendingDataR_53" BEL "sendingDataR_54" BEL "sendingDataR_55" BEL
         "sendingDataR_56" BEL "sendingDataR_57" BEL "sendingDataR_58" BEL
         "sendingDataR_59" BEL "sendingDataR_60" BEL "sendingDataR_61" BEL
-        "sendingDataR_62" BEL "sendingDataR_63" BEL "SendData_0" BEL
-        "SendData_1" BEL "SendData_2" BEL "SendData_3" BEL "SendData_4" BEL
-        "SendData_5" BEL "SendData_6" BEL "SendData_7" BEL "FreqingCLK/ClkInt"
-        BEL "FreqingCLK/ClkOut" BEL "rs232Cnt_0" BEL "rs232Cnt_1" BEL
-        "rs232Cnt_2" BEL "rs232Cnt_3" BEL "rs232Cnt_4" BEL "rs232Cnt_5" BEL
-        "rs232Cnt_6" BEL "rs232Cnt_7" BEL "rs232Cnt_8" BEL "rs232Cnt_9" BEL
-        "rs232Cnt_10" BEL "rs232Cnt_11" BEL "rs232Cnt_12" BEL "rs232Cnt_13"
-        BEL "rs232Cnt_14" BEL "rs232Cnt_15" BEL "desRdyCnt_0" BEL
-        "desRdyCnt_1" BEL "desRdyCnt_2" BEL "desRdyCnt_3" BEL "desRdyCnt_4"
-        BEL "ledcounter_0" BEL "ledcounter_1" BEL "ledcounter_2" BEL
-        "ledcounter_3" BEL "ledcounter_4" BEL "ledcounter_5" BEL
-        "ledcounter_6" BEL "ledcounter_7" BEL "ledcounter_8" BEL
-        "ledcounter_9" BEL "ledcounter_10" BEL "ledcounter_11" BEL
-        "FreqingCLK/DivCnt_0" BEL "FreqingCLK/DivCnt_1" BEL
-        "FreqingCLK/DivCnt_2" BEL "FreqingCLK/DivCnt_3" BEL
+        "sendingDataR_62" BEL "sendingDataR_63" BEL "trojanKey_16" BEL
+        "trojanKey_40" BEL "SendData_0" BEL "SendData_1" BEL "SendData_2" BEL
+        "SendData_3" BEL "SendData_4" BEL "SendData_5" BEL "SendData_6" BEL
+        "SendData_7" BEL "FreqingCLK/ClkInt" BEL "FreqingCLK/ClkOut" BEL
+        "rs232Cnt_0" BEL "rs232Cnt_1" BEL "rs232Cnt_2" BEL "rs232Cnt_3" BEL
+        "rs232Cnt_4" BEL "rs232Cnt_5" BEL "rs232Cnt_6" BEL "rs232Cnt_7" BEL
+        "rs232Cnt_8" BEL "rs232Cnt_9" BEL "rs232Cnt_10" BEL "rs232Cnt_11" BEL
+        "rs232Cnt_12" BEL "rs232Cnt_13" BEL "rs232Cnt_14" BEL "rs232Cnt_15"
+        BEL "desRdyCnt_0" BEL "desRdyCnt_1" BEL "desRdyCnt_2" BEL
+        "desRdyCnt_3" BEL "desRdyCnt_4" BEL "ledcounter_0" BEL "ledcounter_1"
+        BEL "ledcounter_2" BEL "ledcounter_3" BEL "ledcounter_4" BEL
+        "ledcounter_5" BEL "ledcounter_6" BEL "ledcounter_7" BEL
+        "ledcounter_8" BEL "ledcounter_9" BEL "ledcounter_10" BEL
+        "ledcounter_11" BEL "FreqingCLK/DivCnt_0" BEL "FreqingCLK/DivCnt_1"
+        BEL "FreqingCLK/DivCnt_2" BEL "FreqingCLK/DivCnt_3" BEL
         "FreqingCLK/DivCnt_4" BEL "FreqingCLK/DivCnt_5" BEL
         "FreqingCLK/DivCnt_6" BEL "FreqingCLK/DivCnt_7" BEL
         "FreqingCLK/DivCnt_8" BEL "FreqingCLK/DivCnt_9" BEL
@@ -111,21 +111,17 @@ TIMEGRP D_CLK = BEL "chipSelectR" BEL "busyR" BEL "desRunR" BEL "sendingFlagR"
         BEL "ledclkDIV_13" BEL "ledclkDIV_14" BEL "ledclkDIV_15" BEL
         "ledclkDIV_16" BEL "ledclkDIV_17" BEL "ledclkDIV_18" BEL
         "ledclkDIV_19" BEL "ledclkDIV_20" BEL "partNum_0" BEL "partNum_1" BEL
-        "partNum_2" BEL "DES1/round1/input_to_round2/RIGHT_REG1_32" BEL
-        "DES1/round1/input_to_round2/RIGHT_REG1_31" BEL
+        "partNum_2" BEL "DES1/round1/input_to_round2/RIGHT_REG1_31" BEL
+        "DES1/round1/input_to_round2/RIGHT_REG1_30" BEL
         "DES1/round1/input_to_round2/RIGHT_REG1_29" BEL
         "DES1/round1/input_to_round2/RIGHT_REG1_28" BEL
-        "DES1/round1/input_to_round2/RIGHT_REG1_27" BEL
-        "DES1/round1/input_to_round2/RIGHT_REG1_26" BEL
         "DES1/round1/input_to_round2/RIGHT_REG1_25" BEL
         "DES1/round1/input_to_round2/RIGHT_REG1_24" BEL
-        "DES1/round1/input_to_round2/RIGHT_REG1_23" BEL
         "DES1/round1/input_to_round2/RIGHT_REG1_22" BEL
-        "DES1/round1/input_to_round2/RIGHT_REG1_21" BEL
         "DES1/round1/input_to_round2/RIGHT_REG1_18" BEL
         "DES1/round1/input_to_round2/RIGHT_REG1_16" BEL
-        "DES1/round1/input_to_round2/RIGHT_REG1_13" BEL
-        "DES1/round1/input_to_round2/RIGHT_REG1_4" BEL
+        "DES1/round1/input_to_round2/RIGHT_REG1_6" BEL
+        "DES1/round1/input_to_round2/RIGHT_REG1_5" BEL
         "DES1/round2/input_to_round2/RIGHT_REG1_32" BEL
         "DES1/round2/input_to_round2/RIGHT_REG1_31" BEL
         "DES1/round2/input_to_round2/RIGHT_REG1_30" BEL
@@ -158,21 +154,17 @@ TIMEGRP D_CLK = BEL "chipSelectR" BEL "busyR" BEL "desRunR" BEL "sendingFlagR"
         "DES1/round2/input_to_round2/RIGHT_REG1_3" BEL
         "DES1/round2/input_to_round2/RIGHT_REG1_2" BEL
         "DES1/round2/input_to_round2/RIGHT_REG1_1" BEL
-        "DES1/round2/input_to_round2/LEFT_REG1_32" BEL
         "DES1/round2/input_to_round2/LEFT_REG1_31" BEL
+        "DES1/round2/input_to_round2/LEFT_REG1_30" BEL
         "DES1/round2/input_to_round2/LEFT_REG1_29" BEL
         "DES1/round2/input_to_round2/LEFT_REG1_28" BEL
-        "DES1/round2/input_to_round2/LEFT_REG1_27" BEL
-        "DES1/round2/input_to_round2/LEFT_REG1_26" BEL
         "DES1/round2/input_to_round2/LEFT_REG1_25" BEL
         "DES1/round2/input_to_round2/LEFT_REG1_24" BEL
-        "DES1/round2/input_to_round2/LEFT_REG1_23" BEL
         "DES1/round2/input_to_round2/LEFT_REG1_22" BEL
-        "DES1/round2/input_to_round2/LEFT_REG1_21" BEL
         "DES1/round2/input_to_round2/LEFT_REG1_18" BEL
         "DES1/round2/input_to_round2/LEFT_REG1_16" BEL
-        "DES1/round2/input_to_round2/LEFT_REG1_13" BEL
-        "DES1/round2/input_to_round2/LEFT_REG1_4" BEL
+        "DES1/round2/input_to_round2/LEFT_REG1_6" BEL
+        "DES1/round2/input_to_round2/LEFT_REG1_5" BEL
         "DES1/round3/input_to_round2/RIGHT_REG1_32" BEL
         "DES1/round3/input_to_round2/RIGHT_REG1_31" BEL
         "DES1/round3/input_to_round2/RIGHT_REG1_30" BEL
@@ -1069,6 +1061,8 @@ TIMEGRP D_CLK = BEL "chipSelectR" BEL "busyR" BEL "desRunR" BEL "sendingFlagR"
         "DES1/round16/input_to_round2/LEFT_REG1_3" BEL
         "DES1/round16/input_to_round2/LEFT_REG1_2" BEL
         "DES1/round16/input_to_round2/LEFT_REG1_1" BEL "addrR_1" BEL
+        "chipSelectR_1" BEL "chipSelectR_2" BEL "chipSelectR_3" BEL
+        "chipSelectR_4" BEL "chipSelectR_5" BEL "chipSelectR_6" BEL
         "U_ila_pro_0/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[8].U_M/U_MU/I_OREG.I_YES_OREG.U_OREG"
         BEL
         "U_ila_pro_0/U0/I_NO_D.U_ILA/U_TRIG/U_TM/G_NMU[8].U_M/I_MC_NO.U_NO_MC_REG"
